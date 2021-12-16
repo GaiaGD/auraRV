@@ -1,0 +1,141 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #243E02;
+  font-size: 1em;
+}
+
+.handwriting {
+  font-family: 'Gwendolyn', cursive;
+}
+
+#loader {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    background-image: url("img/loader-img.jpg");
+    filter: brightness(0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.on-top {
+  z-index: 1;
+}
+
+#navigator {
+  transition: 0.1s; /* Adds a transition effect when the padding is decreased */
+}
+
+.nav-cover {
+  height: 25%;
+}
+
+/* HIDDEN NAV */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+#hero-hp {
+  background-image: url("img/hero-hp.jpg");
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+}
+
+#section-1 {
+  background-color: #B7A497;
+}
+
+#section-3 {
+  height: 100%;
+  background-color: #B7A497;
+}
+
+#section-2 {
+  height: 80%;
+}
+
+.video-container {
+  height: 80%;
+  width: 100%;
+  position: relative;
+}
+
+.video-container video {
+width: 100%;
+height: 100%;
+position: absolute;
+object-fit: cover;
+z-index: 0;
+filter: brightness(0.4);
+}
+
+.video-container .caption {
+  /* z-index: 1;
+  position: relative;
+  text-align: center;
+  padding: 10px; */
+  position: absolute; top: 10%; left: 0;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  height: 100%;
+}
+/* .video-container .caption h2 {
+  margin-top: 30%;
+} */
+
+.typed-out{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end) forwards;
+  font-size: 3.5rem;
+  width: 0;
+  text-align: center;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.offset-t-10 {
+  margin-top: -10%;
+}
+
+.offset-l-20 {
+  margin-left: -20%;
+}
+
+
+/* #contact-bg {
+  background-image: url("img/contact-page.jpg");
+} */
+
+.zoom-on-scroll {
+  overflow: hidden;
+}
+
+.zoom-on-scroll img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+
