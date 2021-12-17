@@ -33,7 +33,7 @@
             </div>
           </div>
 
-          <nav id="mobile-nav" class="navbar col-3">
+          <nav class="navbar col-3 d-md-block d-lg-none">
             <ul id="opened-nav" class="nav-menu nav mobile-nav-notScrolled">
                 <li class="nav-item">
                   <a class="nav-link text-reset" href="index.html"><h6 class="palette-neg-beige">HOME</h6></a>
@@ -55,7 +55,7 @@
             </div>
           </nav>
 
-          <div id="nav-menu-shrink" class="col-md-9 col-sm-2">
+          <div class="col-md-9 col-sm-2 d-none d-md-block">
             <div class="row justify-content-end">
               <div class="col">
                 <ul class="nav justify-content-end palette-neg-beige">
@@ -84,10 +84,17 @@
 
   <!-- <div id="hero-hp"></div> -->
 
-  <div class="video-container">
+  <div class="video-container d-none d-md-block">
     <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline loop>
         <source src="img/hero-video.mp4" type="video/mp4" />
     </video>
+    <!-- <div class="caption">
+      <h2 class="typed-out palette-palegreen">Camper, Van, Life, Made Easy</h2>
+    </div> -->
+  </div>
+
+  <div id="video-mobile" class="d-md-block d-lg-none z-index-0">
+    <img class="w-100" src="img/hero-video.gif">
     <!-- <div class="caption">
       <h2 class="typed-out palette-palegreen">Camper, Van, Life, Made Easy</h2>
     </div> -->
@@ -130,7 +137,7 @@
       <div class="row align-items-center d-flex justify-content-between bd-highlight palette-neg-beige">
         
         <div id="footer-links-desktop" class="col-sm-4 p-3">
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column d-none d-md-block">
               <div class="">
                 <a class="nav-link text-reset" href="index.html"><h6>HOME</h6></a>
               </div>
