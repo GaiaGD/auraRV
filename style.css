@@ -1,3 +1,8 @@
+@font-face {
+  font-family: handwriting2;
+  src: url(fonts/AlexBrush-Regular.woff);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,10 +13,19 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #243E02;
   font-size: 1em;
+  font-weight: 200;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
 }
 
 .handwriting {
   font-family: 'Parisienne', cursive;
+}
+
+.handwriting2 {
+  font-family: 'handwriting2', cursive;
 }
 
 #loader {
@@ -61,6 +75,12 @@ body {
   margin-left: -40%;
 }
 
+/* picture filter */
+.filter-darker {
+  filter: brightness(0.5);
+}
+
+
 #navigator {
   transition: 0.1s; /* Adds a transition effect when the padding is decreased */
 }
@@ -77,20 +97,18 @@ body {
 }
 
 #section-1 {
-  background-color: #B7A497;
-}
-
-#section-3 {
-  height: 100%;
-  background-color: #B7A497;
 }
 
 #section-2 {
-  height: 80%;
+  height: 50%;
+}
+
+#section-3 {
+  height: 20%;
 }
 
 .video-container {
-  height: 50%;
+  height: 90%;
   width: 100%;
   position: relative;
 }
