@@ -8,7 +8,7 @@ function scrollFunction() {
     // document.getElementById("navigator").classList.add("palette-white-bg")
     document.getElementById("navigator").classList.remove("my-5")
     document.getElementById("navigator").classList.add("py-5")
-    document.getElementById("opened-nav").classList.add("mobile-nav-scrolled")
+    // document.getElementById("opened-nav").classList.add("mobile-nav-scrolled")
   }
   else {
     console.log("back to top");
@@ -17,6 +17,6 @@ function scrollFunction() {
     // document.getElementById("navigator").classList.remove("palette-white-bg")
     document.getElementById("navigator").classList.add("my-5")
     document.getElementById("navigator").classList.remove("py-5")
-    document.getElementById("opened-nav").classList.remove("mobile-nav-scrolled")
+    // document.getElementById("opened-nav").classList.remove("mobile-nav-scrolled")
   }
 };
