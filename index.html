@@ -21,78 +21,72 @@
 
 <!-- page loader -->
 <!-- <div id="loader" style="display: none;"></div> -->
-
 <!-- end page loader -->
 
-    <!-- MOBILE -->
-    <div class="col-12 position-fixed container on-top">
-      <div class="row align-items-top my-3">
+  <!-- MOBILE -->
+  <div class="col-12 position-fixed container on-top">
+    <div class="row align-items-top my-3">
 
-        <div class="col-9 d-md-none">
+      <div class="col-9 d-md-none">
+        <a href="#">
+          <img class="col-9" src="img/aura_logo-test-light.svg" alt="A Custom Conversions">
+        </a>
+      </div>
+      <nav class="navbar col-3 d-md-none">
+        <ul id="opened-nav" class="nav-menu nav mobile-nav-notScrolled">
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#"><h6 class="palette-neg-beige">HOME</h6></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="work.html"><h6 class="palette-neg-beige">WORK</h6></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="contact.html"><h6 class="palette-neg-beige">CONTACT</h6></a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar palette-white-bg"></span>
+            <span class="bar palette-white-bg"></span>
+            <span class="bar palette-white-bg"></span>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+
+  <!-- DESKTOP -->
+  <div id="navigator" class="col-12 position-fixed container on-top my-5">
+    <div class="row align-items-top">
+
+      <div class="col-md-3 col-9 d-none d-md-block">
+        <div id="nav-logo-shrink" class="px-5">
           <a href="#">
-            <img class="col-9" src="img/aura_logo-test-light.svg" alt="A Custom Conversions">
+            <img class src="img/aura_logo-test-light.svg" alt="A Custom Conversions">
           </a>
         </div>
-        <nav class="navbar col-3 d-md-none">
-          <ul id="opened-nav" class="nav-menu nav mobile-nav-notScrolled">
-              <li class="nav-item">
-                <a class="nav-link text-reset" href="#"><h6 class="palette-neg-beige">HOME</h6></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-reset" href="work.html"><h6 class="palette-neg-beige">WORK</h6></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-reset" href="contact.html"><h6 class="palette-neg-beige">CONTACT</h6></a>
-              </li>
-          </ul>
-          <div class="hamburger">
-              <span class="bar palette-white-bg"></span>
-              <span class="bar palette-white-bg"></span>
-              <span class="bar palette-white-bg"></span>
-          </div>
-        </nav>
-
       </div>
-    </div>
 
-    <!-- DESKTOP -->
-    <div id="navigator" class="col-12 position-fixed container on-top my-5">
-      <div class="row align-items-top">
+      <div class="col-md-9 d-none d-md-block">
+        <div class="row justify-content-end">
+          <div class="col">
+            <ul class="nav justify-content-end">
 
-        <div class="col-md-3 col-9 d-none d-md-block">
-          <div id="nav-logo-shrink" class="px-5">
-            <a href="#">
-              <img class src="img/aura_logo-test-light.svg" alt="A Custom Conversions">
-            </a>
+              <li class="nav-item mr-5">
+                <a class="nav-link text-reset" href="#"><h6 class="palette-white">HOME</h6></a>
+              </li>
+              <li class="nav-item mr-5">
+                <a class="nav-link text-reset" href="work.html"><h6 class="palette-white">WORK</h6></a>
+              </li>
+              <li class="nav-item mr-5">
+                <a class="nav-link text-reset" href="contact.html"><h6 class="palette-white">CONTACT</h6></a>
+              </li>
+            </ul>
           </div>
         </div>
-
-        <div class="col-md-9 d-none d-md-block">
-          <div class="row justify-content-end">
-            <div class="col">
-              <ul class="nav justify-content-end">
-                <!-- <li class="nav-item">
-                  <a class="nav-link active" href="#">HOME</a>
-                </li> -->
-                <li class="nav-item mr-5">
-                  <a class="nav-link text-reset" href="#"><h6 class="palette-white">HOME</h6></a>
-                </li>
-                <!-- <li class="nav-item mr-5">
-                  <a class="nav-link text-reset" href="about.html"><h6 class="palette-white">ABOUT</h6></a>
-                </li> -->
-                <li class="nav-item mr-5">
-                  <a class="nav-link text-reset" href="work.html"><h6 class="palette-white">WORK</h6></a>
-                </li>
-                <li class="nav-item mr-5">
-                  <a class="nav-link text-reset" href="contact.html"><h6 class="palette-white">CONTACT</h6></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
       </div>
+
     </div>
+  </div>
 
   <!-- <div id="hero-hp"></div> -->
 
@@ -113,7 +107,7 @@
   </div>
 
   <div id="section-1" class="palette-neg-beige-bg py-5">
-    <div class="container col-md-10 offset-md-1 py-5 appear">
+    <div class="container col-sm-10 offset-sm-1 py-5 appear">
       <div class="wrap py-5">
         <div class="wrap py-5">
           <div class="text-center row d-block">
@@ -121,35 +115,41 @@
               Aura Custom Conversion<br>was founded to bring people’s
             </h1>
           </div>
-          <div class="row justify-content-md-center">
-            <div class="menu col-sm-2half">
-              <h1 class="text-center toScribble menu_link handwriting palette-purple">
-                van life
+          <div class="row justify-content-md-center offset-left-10">
+            <div class="menu col-sm-6 text-sm-right">
+              <h1 class="text-right toScribble menu_link handwriting palette-purple mr-4">
+                van&nbsp;life
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 85 33.3" style="enable-background:new 0 0 85 33.3;" xml:space="preserve"> <g> <g> <path d="M79.9,4.7c-9.3-1.3-18.8-1.7-28.2-1.8c-11.7,0-23.7,0.4-35,3.5C3.7,9.4-7.5,20.9,10.2,27.9c8.8,3.3,18.4,4.1,27.8,4.2 c12.6,0,30.4,0.1,41.3-6.7c7.4-5,5.5-12.5-1.6-16.7c-6-3.9-13.2-5-20.1-6.2c-4.7-0.7-9.4-1.2-14.1-1.6C55.1,2,75.9,3,82.9,13.3 c2.9,4.3,0.6,9.8-3.5,12.3c-10.9,6.8-28.8,6.8-41.5,6.8c-9.4-0.1-19-0.8-27.9-4.2c-18-7.2-6.9-19.1,6.5-22.2 C28,3,39.9,2.6,51.7,2.6C61.1,2.8,70.6,3.3,79.9,4.7L79.9,4.7z"/></g></g></svg>
               </h1>
             </div>
-            <div class="d-inline-block col-sm-4 offset-left-2">
-              <h1 class="palette-purple handwriting text-center">
+            <div class="d-inline-block col-sm-6 offset-left-2">
+              <h1 class="palette-purple handwriting text-center text-sm-left ml-2">
                 dreams to life.
               </h1>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="row h-100 align-items-center py-5">
-          <div class="col-sm-5">
-              <img class="img-fluid appear col-md-12 py-2" src="img/ambulance/ambulance-9.jpg">
+    <div class="container col-sm-9 offset-sm-2 py-5 appear">
+      <div class="row h-100 align-items-center py-5 ">
+
+          <div class="col-sm-6 d-flex justify-content-end">
+              <img class="img-fluid appear" src="img/ambulance/ambulance-9.jpg">
           </div>
-          <div class="col-sm-7 p-4 appear">
-            <h4 class="palette-white">We are happy to work with any budget and any vision to make your dream van a reality.</h4>
+          <div class="py-5 col-sm-6 appear">
+            <p class="palette-white lineheight2">We are happy to work with any budget and any vision to make your dream van a reality.</p>
           </div>
+
       </div>
+    </div>
+
+    <div class="container py-5 appear">
       <div class="row h-100 align-items-center py-5">
-        <div class="col-sm-6 p-4 appear">
-          <p class="palette-purple">
+        <div class="col-sm-6 appear">
             <h2 class="handwriting">At Aura Custom Conversions we specialize in the unique and outrageous.</h2>
-            <p class="palette-white py-3">Skylight? Roof deck? Mobile office? Wood stove? Let’s make it happen.</p>
+            <p class="palette-white py-3 lineheight2">Skylight? Roof deck? Mobile office? Wood stove? Let’s make it happen.</p>
         </div>
         <div class="col-sm-6">
           <img class="img-fluid appear" src="img/ambulance/ambulance-15.jpg">
@@ -158,12 +158,12 @@
       </div>
       <div class="row h-100 align-items-center py-5">
           <div class="col-sm-6">
-              <img class="img-fluid appear col-md-12 py-2" src="img/ambulance/ambulance-32.jpg">
+              <img class="img-fluid appear py-2" src="img/ambulance/ambulance-32.jpg">
           </div>
-          <div class="col-sm-6 p-4 appear">
+          <div class="col-sm-6 appear">
             <p class="palette-purple">
               <h2 class="handwriting">Whether it’s a RV modernization to a full all-season conversion, we got you covered.</h2>
-              <p class="palette-white py-3">No matter how big or small the project. Every project is customized and unique to your preferences.</p>
+              <p class="palette-white py-3 lineheight2">No matter how big or small the project. Every project is customized and unique to your preferences.</p>
           </div>
       </div>
     </div>
@@ -192,9 +192,6 @@
               <div class="">
                 <a class="nav-link text-reset" href="#"><h6>HOME</h6></a>
               </div>
-              <!-- <div class="">
-                <a class="nav-link text-reset" href="about.html"><h6>ABOUT</h6></a>
-              </div> -->
               <div class="">
                 <a class="nav-link text-reset" href="work.html"><h6>WORK</h6></a>
               </div>
