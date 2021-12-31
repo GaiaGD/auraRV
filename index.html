@@ -28,17 +28,17 @@
     <div class="row align-items-top my-3">
 
       <div class="col-9 d-md-none">
-        <a href="#">
-          <img class="col-9" src="img/aura_logo-test-light.svg" alt="A Custom Conversions">
+        <a href="index.html">
+          <img id="nav-logo-shrink-mobile" class="col-8" src="img/aura_logo-test-light.svg" alt="A Custom Conversions">
         </a>
       </div>
-      <nav class="navbar col-3 d-md-none">
+      <nav class="col-3 d-md-none">
         <ul id="opened-nav" class="nav-menu nav mobile-nav-notScrolled">
             <li class="nav-item">
-              <a class="nav-link text-reset" href="#"><h6 class="palette-neg-beige">HOME</h6></a>
+              <a class="nav-link text-reset" href="index.html"><h6 class="palette-neg-beige">HOME</h6></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-reset" href="work.html"><h6 class="palette-neg-beige">WORK</h6></a>
+              <a class="nav-link text-reset" href="#"><h6 class="palette-neg-beige">WORK</h6></a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-reset" href="contact.html"><h6 class="palette-neg-beige">CONTACT</h6></a>
@@ -77,7 +77,7 @@
               <li class="nav-item mr-5">
                 <a class="nav-link text-reset" href="work.html"><h6 class="palette-white">WORK</h6></a>
               </li>
-              <li class="nav-item mr-5">
+              <li class="nav-item">
                 <a class="nav-link text-reset" href="contact.html"><h6 class="palette-white">CONTACT</h6></a>
               </li>
             </ul>
@@ -94,28 +94,25 @@
     <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline loop>
         <source src="img/hero-video.mp4" type="video/mp4" />
     </video>
-    <!-- <div class="caption">
-      <h2 class="typed-out palette-palegreen">Camper, Van, Life, Made Easy</h2>
-    </div> -->
   </div>
 
   <div id="video-mobile" class="d-md-none z-index-0">
     <img class="w-100 h-100" src="img/hero-video.gif">
-    <!-- <div class="caption">
-      <h2 class="typed-out palette-palegreen">Camper, Van, Life, Made Easy</h2>
-    </div> -->
   </div>
 
-  <div id="section-1" class="palette-neg-beige-bg py-5">
+  <div id="section-1" class="palette-neg-beige-bg py-md-5">
     <div class="container col-sm-10 offset-sm-1 py-5 appear">
       
-      <div class="wrap py-5">
+      <div class="wrap py-md-5 py-3">
         <div class="row d-flex justify-content-start">
+          <div class="col-sm-3 d-none d-md-block">
+            &nbsp;
+          </div>
           <div class="col-sm-4 offset-bottom-5">
             <img src="img/home/mountains.svg">
           </div>
         </div>
-        <div class="wrap py-5">
+        <div class="wrap py-md-5">
           <div class="text-center row d-block">
             <h1 class="palette-purple handwriting text-center pt-5">
               Aura Custom Conversion<br>was founded to bring people’s
@@ -148,31 +145,36 @@
       </div>
     </div>
 
-    <div class="container col-sm-9 offset-sm-2 py-5 appear">
-      <div class="row h-100 align-items-center py-5 ">
+    <div class="container col-sm-8 offset-sm-2 py-3 appear">
+      <div class="row align-items-center py-3">
 
           <div class="col-sm-6 d-flex justify-content-end">
               <img class="img-fluid appear" src="img/ambulance/ambulance-9.jpg">
           </div>
-          <div class="py-5 col-sm-6 appear">
+          <div class="py-md-5 py-3 col-sm-6 appear">
+              <div class="row">
+                <div class="col-sm-5 offset-top-5 offset-left-20 pb-3 d-none d-md-block">
+                  <img src="img/home/dream.svg">
+                </div>
+              </div>
             <p class="palette-white lineheight2">We are happy to work with any budget and any vision to make your dream van a reality.</p>
           </div>
 
       </div>
     </div>
 
-    <div class="container py-5 appear">
-      <div class="row h-100 align-items-center py-5">
-        <div class="col-sm-6 appear">
+    <div class="container py-md-5 appear">
+      <div class="row align-items-center py-md-5">
+        <div class="col-sm-6 appear order-2 order-md-1">
             <h2 class="handwriting">At Aura Custom Conversions we specialize in the unique and outrageous.</h2>
-            <p class="palette-white py-3 lineheight2">Skylight? Roof deck? Mobile office? Wood stove? Let’s make it happen.</p>
+            <p class="palette-white py-3 lineheight2">Skylight? Roof deck? Mobile office? Wood stove?<br> Let’s make it happen.</p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 order-1 order-md-2">
           <img class="img-fluid appear" src="img/ambulance/ambulance-15.jpg">
-          <img class="img-fluid appear offset-left-10 offset-top-20 col-md-9" src="img/ambulance/ambulance-33.jpg">
+          <img class="img-fluid appear offset-left-10 offset-top-20 col-md-9 inview p-0 py-md-0 py-3" src="img/ambulance/ambulance-33.jpg">
         </div>
       </div>
-      <div class="row h-100 align-items-center py-5">
+      <div class="row align-items-center py-5">
           <div class="col-sm-6">
               <img class="img-fluid appear py-2" src="img/ambulance/ambulance-32.jpg">
           </div>
@@ -192,8 +194,8 @@
   </div>
 
   <div id="section-3" class="palette-neg-beige-bg">
-    <div class="container h-100 col-md-6 offset-md-3">
-      <div class="row h-100 align-items-center">
+    <div class="container col-md-6 offset-md-3">
+      <div class="row align-items-center">
           <h1>Lorem</h1>
       </div>
     </div>
