@@ -94,6 +94,15 @@ h2 {
     background-size: cover;
 }
 
+.btn-primary {
+  border-color: #243E02;
+}
+
+.btn-primary:hover {
+  border-color: #102000;
+  background-color: #102000;
+}
+
 .on-top {
   z-index: 1;
 }
@@ -151,7 +160,7 @@ h2 {
 }
 
 .offset-top-40 {
-  margin-left: -40%;
+  margin-top: -40%;
 }
 
 .offset-bottom-5 {
@@ -182,9 +191,17 @@ h2 {
 
 /* picture filter */
 .filter-darker {
-  filter: brightnss(0.5);
+  filter: brightness(0.5);
 }
 
+.darker-layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 #navigator {
   transition: 0.1s; /* Adds a transition effect when the padding is decreased */
@@ -208,6 +225,7 @@ h2 {
   height: 50%;
 }
 
+
 #section-3 {
   height: 100%;
 }
@@ -225,6 +243,14 @@ h2 {
   object-fit: cover;
   z-index: 0;
   filter: brightness(0.4);
+}
+
+.contact-bg {
+  height: 80%;
+  background-image: url(img/contact-page.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .z-index-0 {
