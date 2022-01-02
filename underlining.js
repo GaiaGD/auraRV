@@ -4,6 +4,7 @@ const toScribble = function(entries){
     entries.forEach(entry => {
         if(entry.isIntersecting){
         entry.target.classList.add('scribbled'); 
+        console.log("i see it");
         }
         // else{
         //     entry.target.classList.remove('scribbled'); 
