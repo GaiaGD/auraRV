@@ -18,7 +18,7 @@
 <body>
 
 <!-- MOBILE -->
-<div class="col-12 position-fixed container on-top">
+<!-- <div class="col-12 position-fixed container on-top">
   <div class="row align-items-top my-3">
 
     <div class="col-9 d-md-none">
@@ -46,7 +46,7 @@
     </nav>
 
   </div>
-</div>
+</div> -->
 
 <!-- DESKTOP -->
 <div id="navigator" class="col-12 position-fixed container on-top my-5">
@@ -77,9 +77,30 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
+
+
+<header class="header d-md-none py-3 row">
+  
+    <a class="col-9" href="index.html">
+      <img id="nav-logo-shrink-mobile" class="col-6 py-3" src="img/aura_logo-test-light.svg" alt="A Custom Conversions">
+    </a>
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon p-4 col-3" for="menu-btn">
+      <span class="navicon palette-white-bg">
+      </span>
+    </label>
+
+  <ul class="menu palette-white-bg col-12">
+    <li class="py-5"><a class="palette-neg-beige" href="index.html">HOME</a></li>
+    <li class="py-5"><a class="palette-neg-beige" href="work.html">WORK</a></li>
+    <li class="py-5"><a class="palette-neg-beige" href="#">CONTACT</a></li>
+  </ul>
+</header>
+
+
 
 <div class="contact-bg">
   <div class="row h-100">
@@ -97,6 +118,7 @@
   <div id="contact-bg" class="container py-md-5">
     
     <div class="row appear">
+
       <div class="col py-5">
         <!-- <h1 class="handwriting text-center palette-purple">
           Get in touch
@@ -109,15 +131,20 @@
           You can get in touch via email:
         </h5>
 
-        <h5 class="text-center palette-white lineheight1half bold">
+        <h5 class="text-center palette-white lineheight1half bold d-none d-md-block">
           info@auracustomconversion.com
         </h5>
+
+        <p class="text-center palette-white lineheight1half bold d-md-none">
+          info@auracustomconversion.com
+        </p>
 
         <h5 class="text-center palette-white lineheight1half">
           or send us a message:
         </h5>
 
       </div>
+
     </div>
 
 
