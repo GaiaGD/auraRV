@@ -19,33 +19,38 @@
 
 
 <!-- MOBILE -->
-<div class="col-12 position-fixed container on-top">
-  <div class="row align-items-center my-3">
-
-    <div class="col-9 d-md-none">
-      <a href="index.html">
-        <img id="nav-logo-shrink-mobile" class="col-8" src="img/aura_logo-test-light.svg" alt="A Custom Conversions">
-      </a>
+<div class="mobile-nav on-top w-100">
+  <div class="row align-items-center py-2 px-4">
+    <div class="col-10 p-0">
+        <a href="index.html">
+          <img id="nav-logo-shrink-mobile" class="col-6 p-0" src="img/aura_logo-test-light.svg" alt="A Custom Conversions">
+        </a>
     </div>
-    <nav class="col-3 d-md-none">
-      <ul id="opened-nav" class="nav-menu nav mobile-nav-notScrolled">
-          <li class="nav-item">
-            <a class="nav-link text-reset" href="index.html"><h6 class="palette-neg-beige">HOME</h6></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-reset" href="#"><h6 class="palette-neg-beige">WORK</h6></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-reset" href="contact.html"><h6 class="palette-neg-beige">CONTACT</h6></a>
-          </li>
-      </ul>
-      <div class="hamburger">
-          <span class="bar palette-white-bg"></span>
-          <span class="bar palette-white-bg"></span>
-          <span class="bar palette-white-bg"></span>
+    <div class="col-2 p-0">
+      <div id="showMobileNav" class="d-md-none">
+        <a class="mobile">
+          <span class="bar palette-white-bg top"></span>
+          <span class="bar palette-white-bg middle"></span>
+          <span class="bar palette-white-bg bottom"></span>
+        </a>
       </div>
-    </nav>
+    </div>
+  </div>
 
+  <div id="mobileNav" class="menu-collapsed w-100 d-md-none">
+    <div class="row h-100">
+      <div class="align-self-center col-12">
+          <div class="p-5">
+            <a class="nav-link text-reset" href="index.html"><h6 class="palette-white text-center">HOME</h6></a>
+          </div>
+          <div class="p-5">
+            <a class="nav-link text-reset" href="work.html"><h6 class="palette-white text-center">WORK</h6></a>
+          </div>
+          <div class="p-5">
+            <a class="nav-link text-reset" href="contact.html"><h6 class="palette-white text-center">CONTACT</h6></a>
+          </div>
+      </div>
+    </div>
   </div>
 </div>
 
