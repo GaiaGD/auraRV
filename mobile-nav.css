@@ -100,7 +100,7 @@ top: 3.8em;
 
 #showMobileNav.open span.top {
   transform: rotate(45deg);
-  margin-bottom: -20%;
+  margin-bottom: -23%;
 }
 
 #showMobileNav.open span.middle {
@@ -109,5 +109,5 @@ top: 3.8em;
 
 #showMobileNav.open span.bottom {
   transform: rotate(-45deg);
-  margin-top: -20%;
+  margin-top: -23%;
 }
