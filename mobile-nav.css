@@ -8,7 +8,7 @@
 
 .bar {
     display: block;
-    width: 75%;
+    width: 30px;
     height: 4px;
     margin: 8px auto;
     -webkit-transition: all 0.3s ease-in-out;
@@ -100,7 +100,7 @@ top: 3.8em;
 
 #showMobileNav.open span.top {
   transform: rotate(45deg);
-  margin-bottom: -23%;
+  margin-bottom: -20%;
 }
 
 #showMobileNav.open span.middle {
@@ -109,5 +109,5 @@ top: 3.8em;
 
 #showMobileNav.open span.bottom {
   transform: rotate(-45deg);
-  margin-top: -23%;
+  margin-top: -20%;
 }
